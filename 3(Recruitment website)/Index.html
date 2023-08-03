@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recruitment Startup</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@700&family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+  <!-- Header Section -->
+
+  <header>
+    <nav>
+      <a href="#" class="logo">RecuitNow</a>
+      <ul class="navigation">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <input type="search" name="search" placeholder="Looking for Talent?" id="search">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </li>
+        <li><a href="#contact">Login / Sign Up</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- <header>
+    <nav>
+      <a href="#" class="logo">RecuitNow</a>
+      <ul class="navigation">
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li><input type="search" name="search" placeholder="Anything we can help you with?" id="search"> &nbsp; <i class="fa-solid fa-magnifying-glass"></i></li>
+        <li><a href="#contact">Login / Sign Up</a></li>
+      </ul>
+    </nav>
+
+  </header> -->
+ 
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Hire the Best Talent</h1>
+      <p>Connect with top-notch software engineers, product managers, data scientists, and more.</p>
+      <a href="#contact" class="cta-btn">Get Started</a>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <div class="services-content">
+      <h2><a href="#">Our Services</a></h2>
+      <ul class="services-grid">
+        <li>
+          <div class="services_box">
+            <div class="role">
+              <h3><a href="#">Hiring Software Engineers</a></h3>
+              <p>Discover top-tier software engineers with cutting-edge skills and a passion for innovation. We'll help you find the right developers to power your projects and take your company to new heights.</p>
+            </div>
+            <div class="services_img right-img">
+              <img src="./assets/images/softEng.jpg" alt="Software Engineer">
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="services_box">
+            <div class="services_img left-img">
+              <img src="./assets/images/productMang.jpg" alt="Software Engineer">
+            </div>
+            <div class="role">
+              <h3><a href="#">Product Manager Recruitment</a></h3>
+              <p>Find visionary product managers who can drive product strategy, lead cross-functional teams, and deliver exceptional user experiences. Our talent pool includes seasoned professionals ready to take your products to market success.</p>
+            </div>
+          </div>
+        </li>
+        <li>
+          <div class="services_box">
+            <div class="role">
+              <h3><a href="#">Data Scientist Hiring</a></h3>
+              <p>Unlock the potential of data with our expert data scientists. From advanced analytics to machine learning, our data scientists possess the skills to turn your data into actionable insights and drive data-driven decisions.</p>
+            </div>
+            <div class="services_img right-img">
+              <img src="./assets/images/dataAnalyst.jpg" alt="Software Engineer">
+            </div>
+          </div>
+        </li>
+        <!-- Add more services here -->
+      </ul>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-content">
+      <h2>About Us</h2>
+      <p>
+        Welcome to RecruitNow - your go-to destination for hiring top talent! We are a passionate team of professionals dedicated to helping companies like yours build exceptional teams that drive success.
+        At RecruitNow, we understand that finding the right software engineers, product managers, data scientists, and other skilled professionals can be a challenging and time-consuming process. That's why we've designed a seamless platform that connects you with the best candidates from India and around the world.
+        Our mission is to bridge the gap between exceptional talent and companies in need of their skills. Whether you're a startup looking for a technical co-founder or an established enterprise expanding your team, we've got you covered.
+        Our commitment to excellence, innovation, and customer satisfaction sets us apart. We employ cutting-edge technology and smart algorithms to match your job requirements with the most suitable candidates. Our streamlined recruitment process saves you time and effort, allowing you to focus on what matters most - your business.
+        Join thousands of satisfied companies who have successfully hired top-tier talent through RecruitNow. Let's shape the future together.
+      </p>
+    </div>
+  </section>
+
+  
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="contact-content">
+      <h2>Contact Us</h2>
+      <p>If you're interested in our services, please get in touch with us.</p>
+      <form action="/action" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <p>&copy; 2023 RecruitNow. All rights reserved.</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+ 
